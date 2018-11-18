@@ -1,0 +1,35 @@
+{
+  "name": "charlie_api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint '**/*.js'",
+    "start": "nodemon index.js",
+    "test": "NODE_ENV=test mocha test/**/*.js --exit",
+    "migrate": "node-pg-migrate"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "acorn": "^6.0.2",
+    "amqp": "^0.2.7",
+    "amqplib": "^0.5.2",
+    "body-parser": "^1.18.3",
+    "convict": "^4.4.0",
+    "dotenv": "^6.1.0",
+    "express": "^4.16.3",
+    "node-pg-migrate": "^3.14.0",
+    "nodemon": "^1.18.5",
+    "pg": "^7.6.1"
+  },
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-http": "^4.2.0",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0",
+    "mocha": "^5.2.0",
+    "supertest": "^3.3.0"
+  }
+}

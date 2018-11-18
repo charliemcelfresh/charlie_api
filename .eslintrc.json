@@ -1,0 +1,11 @@
+{
+    "extends": "airbnb-base",
+    "globals": {
+        "__base": true
+    },
+    "rules": {
+        "no-console": 0,
+        "import/no-dynamic-require": 0,
+        "no-underscore-dangle": ["error", { "allow": ["__base"] }]
+    }
+}

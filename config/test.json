@@ -1,0 +1,5 @@
+{
+  "env": "test",
+  "port": 8888,
+  "dbUrl": "postgresql://charlie:password@localhost:5432/charlie_test"
+}
